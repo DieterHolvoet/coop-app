@@ -1,0 +1,34 @@
+/* 
+  Localizable.strings
+  COOP
+
+  Created by ontlener on 26/05/16.
+  Copyright © 2016 Groep 1. All rights reserved.
+*/
+
+"walk-done" = "Voltooid!";
+"walk-not-done" = "Niet voltooid";
+"interactivity" = "Interactiviteit";
+"settings-notifications" = "Meldingen";
+"settings-interactive-walk" = "Interactieve wandeling";
+"settings-interactive-walk-description" = "Maakt de wandeling interessanter door bij elke POI verplicht een verstopte QR-code te zoeken";
+
+"button-scan-qr" = "Scan QR";
+"button-next" = "Volgende";
+"button-previous" = "Vorige";
+"button-play-audio" = "Speel geluid";
+"button-pause-audio" = "Pauzeer geluid";
+"button-finish" = "Voltooien";
+
+"alert-incorrect-qr" = "Dit is niet de correcte QR-code voor de volgende stap!";
+"alert-reader-not-supported" = "De QR-codelezer is niet ondersteund door uw apparaat.";
+"alert-walk-no-stops" = "Wandeling met ID %@ heeft geen stops. Dit zou niet mogen gebeuren, gelieve ons te contacteren!";
+"alert-error" = "Fout";
+"alert-cancel" = "Annuleren";
+"alert-ok" = "OK";
+
+"tutorial-skip" = "Sla de tutorial over";
+"tutorial-start-app" = "Start de app";
+
+"trophy-history" = "Proficiat, je hebt 1 **Geschiedenis-beker** gewonnen! Voltooi de andere wandelingen om de overige bekers te verzamelen.";
+"want-more" = "Zin in meer? Volg ons op sociale media en blijf op de hoogte!";

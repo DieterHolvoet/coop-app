@@ -1,0 +1,64 @@
+PODS:
+  - AFNetworking (1.3.4)
+  - ISO8601DateFormatterValueTransformer (0.6.1):
+    - RKValueTransformers (~> 1.1.0)
+  - Mapbox-iOS-SDK (3.2.2)
+  - QRCodeReaderViewController (4.0.1)
+  - RestKit (0.24.1):
+    - RestKit/Core (= 0.24.1)
+  - RestKit/Core (0.24.1):
+    - RestKit/CoreData
+    - RestKit/Network
+    - RestKit/ObjectMapping
+  - RestKit/CoreData (0.24.1):
+    - RestKit/ObjectMapping
+  - RestKit/Network (0.24.1):
+    - AFNetworking (~> 1.3.0)
+    - RestKit/ObjectMapping
+    - RestKit/Support
+    - SOCKit
+  - RestKit/ObjectMapping (0.24.1):
+    - ISO8601DateFormatterValueTransformer (~> 0.6.0)
+    - RestKit/Support
+    - RKValueTransformers (~> 1.1.0)
+  - RestKit/Search (0.24.1):
+    - RestKit/CoreData
+  - RestKit/Support (0.24.1):
+    - TransitionKit (~> 2.1.0)
+  - RestKit/Testing (0.24.1):
+    - RestKit/Network
+  - RKValueTransformers (1.1.3)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - SOCKit (1.1)
+  - TransitionKit (2.1.1)
+  - WESlider (0.0.5)
+  - XNGMarkdownParser (0.3.2)
+
+DEPENDENCIES:
+  - Mapbox-iOS-SDK (~> 3.2.2)
+  - QRCodeReaderViewController (~> 4.0.1)
+  - RestKit (~> 0.24.0)
+  - RestKit/Search (~> 0.24.0)
+  - RestKit/Testing (~> 0.24.0)
+  - SDWebImage (~> 3.7)
+  - WESlider (~> 0.0.5)
+  - XNGMarkdownParser
+
+SPEC CHECKSUMS:
+  AFNetworking: cf8e418e16f0c9c7e5c3150d019a3c679d015018
+  ISO8601DateFormatterValueTransformer: 52da467d6ec899d6aedda8e48280ac92e8ee97e6
+  Mapbox-iOS-SDK: 117ba1b0ed31107d3fe5826878a0f1531775aedc
+  QRCodeReaderViewController: 6538745c8f4ffa9407a26bd7f9489ea01739e7b0
+  RestKit: 1987b5efef289c6b27bd980714d6ca48d3871b78
+  RKValueTransformers: e5ed67e3811229b616fe01bddeeafe3bb337b1b9
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  SOCKit: c7376ac262bea9115b8f749358f762522a47d392
+  TransitionKit: 3a14b6acc7cf2d1dd3e454e24dbad1cfab9a1ef1
+  WESlider: f25698fc6d1e00f520033e92ab92b22f9937aee6
+  XNGMarkdownParser: aed98c14f0c0eb20064184ddf9bac26c482722b2
+
+PODFILE CHECKSUM: 34b3782ae7369866f8a9ad7d76d01e44935a89fc
+
+COCOAPODS: 1.0.0

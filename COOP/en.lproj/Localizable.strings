@@ -1,0 +1,35 @@
+/* 
+  Localizable.strings
+  COOP
+
+  Created by ontlener on 26/05/16.
+  Copyright © 2016 Groep 1. All rights reserved.
+*/
+
+"walk-done" = "Done!";
+"walk-not-done" = "Not done";
+"interactivity" = "Interactivity";
+
+"settings-notifications" = "Notifications";
+"settings-interactive-walk" = "Interactive walk";
+"settings-interactive-walk-description" = "Makes the walk more interesting by requiring to find a hidden QR code with every point of interest";
+
+"button-scan-qr" = "Scan QR";
+"button-next" = "Next";
+"button-previous" = "Previous";
+"button-play-audio" = "Play audio";
+"button-pause-audio" = "Pause audio";
+"button-finish" = "Finish";
+
+"alert-incorrect-qr" = "This is not the correct QR-code for the next step!";
+"alert-reader-not-supported" = "Reader not supported by the current device";
+"alert-walk-no-stops" = "Walk with ID %@ has no stops. This shouldn't happen, please tell us about this problem!";
+"alert-error" = "Error";
+"alert-cancel" = "Cancel";
+"alert-ok" = "OK";
+
+"tutorial-skip" = "Skip the tutorial";
+"tutorial-start-app" = "Enter the app";
+
+"trophy-history" = "Congratulations, you won 1 **History trophy**! Complete the other walks to collect more trophies.";
+"want-more" = "Want more? Follow us on social media and stay tuned!";

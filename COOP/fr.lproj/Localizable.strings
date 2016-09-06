@@ -1,0 +1,34 @@
+/* 
+  Localizable.strings
+  COOP
+
+  Created by ontlener on 26/05/16.
+  Copyright © 2016 Groep 1. All rights reserved.
+*/
+
+"walk-done" = "Terminé!";
+"walk-not-done" = "A faire";
+"interactivity" = "Interactivité";
+"settings-notifications" = "Alertes";
+"settings-interactive-walk" = "Promenade interactive";
+"settings-interactive-walk-description" = "Rend la marche plus intéressante en exigeant de trouver un code QR caché à chaque point d'intérêt";
+
+"button-scan-qr" = "Scan QR";
+"button-next" = "Prochain";
+"button-previous" = "Précédent";
+"button-play-audio" = "Jouer le son";
+"button-pause-audio" = "Arrêter le son";
+"button-finish" = "Terminer";
+
+"alert-incorrect-qr" = "Ce code QR ne correspond pas à celui pour l'étape suivante!";
+"alert-reader-not-supported" = "Le lecteur de code QR n'est pas pris en charge par votre appareil.";
+"alert-walk-no-stops" = "Balade avec ID %@ n'a pas d'arrêts. Cela ne devrait pas arriver, s'il vous plaît contactez-nous!";
+"alert-error" = "Erreur";
+"alert-cancel" = "Annuler";
+"alert-ok" = "OK";
+
+"tutorial-skip" = "Passer le tutoriel";
+"tutorial-start-app" = "Entrer l'application";
+
+"trophy-history" = "Félicitations, vous avez gagné un **Trophée d'Histoire**! Remplissez les autres promenades à recueillir plus de trophées.";
+"want-more" = "Vous voulez plus? Suivez-nous sur les médias sociaux et restez à l'écoute!";

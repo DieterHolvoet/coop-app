@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Apercu Light.otf">
+            <string>Apercu-Light</string>
+            <string>Apercu-Light</string>
+            <string>Apercu-Light</string>
+        </mutableArray>
+        <mutableArray key="Mission Gothic Regular.otf">
+            <string>MissionGothic-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="customCell" rowHeight="86" id="MLP-S4-pcc" customClass="CustomCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MLP-S4-pcc" id="p5Q-Yh-67Z">
+                <rect key="frame" x="0.0" y="0.0" width="287" height="69"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y4k-KU-VVa">
+                        <rect key="frame" x="18" y="10" width="50" height="50"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NhS-4R-E8a">
+                        <rect key="frame" x="76" y="39" width="20" height="20"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ssp-s3-gNm">
+                        <rect key="frame" x="104" y="40" width="42" height="21"/>
+                        <fontDescription key="fontDescription" name="Apercu-Light" family="Apercu" pointSize="11"/>
+                        <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bwh-rk-rol">
+                        <rect key="frame" x="145" y="40" width="20" height="20"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogJ-SO-yZl">
+                        <rect key="frame" x="173" y="41" width="42" height="21"/>
+                        <fontDescription key="fontDescription" name="Apercu-Light" family="Apercu" pointSize="11"/>
+                        <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q8D-J6-4SE">
+                        <rect key="frame" x="217" y="40" width="20" height="20"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pQa-RY-bEO">
+                        <rect key="frame" x="245" y="41" width="50" height="21"/>
+                        <fontDescription key="fontDescription" name="Apercu-Light" family="Apercu" pointSize="11"/>
+                        <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F51-K7-qIj">
+                        <rect key="frame" x="76" y="10" width="219" height="21"/>
+                        <fontDescription key="fontDescription" name="MissionGothic-Regular" family="Mission Gothic" pointSize="21"/>
+                        <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="iconOne" destination="NhS-4R-E8a" id="MjF-BI-L36"/>
+                <outlet property="iconOneInfo" destination="Ssp-s3-gNm" id="vfg-MV-Jh8"/>
+                <outlet property="iconThree" destination="Q8D-J6-4SE" id="Qr7-CL-GbK"/>
+                <outlet property="iconThreeInfo" destination="pQa-RY-bEO" id="cgy-i8-YAk"/>
+                <outlet property="iconTwo" destination="Bwh-rk-rol" id="3sN-3S-5cr"/>
+                <outlet property="iconTwoInfo" destination="ogJ-SO-yZl" id="bzv-je-cHf"/>
+                <outlet property="thumbnailImageView" destination="Y4k-KU-VVa" id="m5z-SW-l0I"/>
+                <outlet property="wandeling" destination="F51-K7-qIj" id="T5y-4g-UOg"/>
+            </connections>
+            <point key="canvasLocation" x="321" y="405"/>
+        </tableViewCell>
+    </objects>
+</document>

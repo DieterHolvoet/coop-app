@@ -1,0 +1,69 @@
+
+/* Class = "UIButton"; normalTitle = "Notifications"; ObjectID = "2Wv-rt-WTA"; */
+"2Wv-rt-WTA.normalTitle" = "Meldingen";
+
+/* Class = "UIButton"; normalTitle = "START THIS WALK!"; ObjectID = "4ft-fS-Nw9"; */
+"4ft-fS-Nw9.normalTitle" = "BEGIN DEZE WANDELING!";
+
+/* Class = "UIButton"; normalTitle = "Map"; ObjectID = "6uH-lk-fyF"; */
+"6uH-lk-fyF.normalTitle" = "Kaart";
+
+/* Class = "UIButton"; normalTitle = "Play Audio"; ObjectID = "7iQ-oT-S9e"; */
+"7iQ-oT-S9e.normalTitle" = "Speel geluid af";
+
+/* Class = "UILabel"; text = "Done!"; ObjectID = "7rm-iO-30H"; */
+"7rm-iO-30H.text" = "Gedaan!";
+
+/* Class = "UILabel"; text = "Interactiviteit"; ObjectID = "7yQ-fp-yhQ"; */
+"7yQ-fp-yhQ.text" = "Interactiviteit";
+
+/* Class = "UILabel"; text = "DESCRIPTION"; ObjectID = "8RN-Hr-WGs"; */
+"8RN-Hr-WGs.text" = "BESCHRIJVING";
+
+/* Class = "UILabel"; text = "- discover history -"; ObjectID = "AES-WM-LWO"; */
+"AES-WM-LWO.text" = "- ontdek de geschiedenis -";
+
+/* Class = "UIButton"; normalTitle = "xx"; ObjectID = "Bps-eM-Zlh"; */
+"Bps-eM-Zlh.normalTitle" = "xx";
+
+/* Class = "UINavigationItem"; title = "Instellingen"; ObjectID = "Esg-JT-plV"; */
+"Esg-JT-plV.title" = "Instellingen";
+
+/* Class = "UILabel"; text = "BACK IN TIME"; ObjectID = "H5H-8D-BW5"; */
+"H5H-8D-BW5.text" = "TERUG IN DE TIJD";
+
+/* Class = "UILabel"; text = "30 min"; ObjectID = "JTe-3F-jqy"; */
+"JTe-3F-jqy.text" = "30 min";
+
+/* Class = "UILabel"; text = "5 km"; ObjectID = "JX7-ol-V3i"; */
+"JX7-ol-V3i.text" = "5 km";
+
+/* Class = "UIButton"; normalTitle = "xx"; ObjectID = "KkN-Nd-jKo"; */
+"KkN-Nd-jKo.normalTitle" = "xx";
+
+/* Class = "UIButton"; normalTitle = "List"; ObjectID = "MsX-Y8-pxN"; */
+"MsX-Y8-pxN.normalTitle" = "Lijst";
+
+/* Class = "UIButton"; normalTitle = "xx"; ObjectID = "Rbw-Mb-TAr"; */
+"Rbw-Mb-TAr.normalTitle" = "xx";
+
+/* Class = "UIButton"; normalTitle = "Interactieve wandeling"; ObjectID = "Xsk-f6-GJk"; */
+"Xsk-f6-GJk.normalTitle" = "Interactieve wandeling";
+
+/* Class = "UILabel"; text = "WALKS"; ObjectID = "cDt-Tf-tGX"; */
+"cDt-Tf-tGX.text" = "WANDELINGEN";
+
+/* Class = "UILabel"; text = "WALKS"; ObjectID = "cFj-eO-qpC"; */
+"cFj-eO-qpC.text" = "WANDELINGEN";
+
+/* Class = "UIButton"; normalTitle = "Previous"; ObjectID = "ciL-P4-1Fv"; */
+"ciL-P4-1Fv.normalTitle" = "Vorige";
+
+/* Class = "UIButton"; normalTitle = "List"; ObjectID = "fa4-49-PdL"; */
+"fa4-49-PdL.normalTitle" = "Lijst";
+
+/* Class = "UIButton"; normalTitle = "Map"; ObjectID = "qFQ-OE-wky"; */
+"qFQ-OE-wky.normalTitle" = "Kaart";
+
+/* Class = "UIButton"; normalTitle = "Read more >>"; ObjectID = "wf4-ng-A9Y"; */
+"wf4-ng-A9Y.normalTitle" = "Lees meer >>";

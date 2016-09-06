@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15F34" minimumToolsVersion="Automatic">
+    <entity name="AverageLocation" representedClassName="AverageLocation" syncable="YES">
+        <attribute name="lat" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="lon" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="Location" representedClassName="Location" syncable="YES">
+        <attribute name="location_city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location_house_number" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="location_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="location_lat" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="location_lon" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="location_postal_code" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="location_street" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Media" representedClassName="Media" syncable="YES">
+        <attribute name="media_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="media_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="media_title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="media_type_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="media_url" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="POI" representedClassName="POI" syncable="YES">
+        <attribute name="poi_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="poi_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="poi_title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="poi_unlock_code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stop_sequence" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="location" maxCount="1" deletionRule="Nullify" destinationEntity="Location" syncable="YES"/>
+        <relationship name="media" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Media" syncable="YES"/>
+    </entity>
+    <entity name="Theme" representedClassName="Theme" syncable="YES">
+        <attribute name="theme_color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="theme_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="theme_name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ThemeList" representedClassName="ThemeList" syncable="YES">
+        <relationship name="themes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Theme" syncable="YES"/>
+    </entity>
+    <entity name="Walk" representedClassName="Walk" syncable="YES">
+        <attribute name="creation_date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isCleared" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="progress" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="walk_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="walk_distance" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="walk_duration" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="walk_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="walk_thumbnail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="walk_title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="average_location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AverageLocation" syncable="YES"/>
+        <relationship name="pois" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="POI" syncable="YES"/>
+        <relationship name="theme" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Theme" syncable="YES"/>
+        <relationship name="waypoints" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Waypoint" syncable="YES"/>
+    </entity>
+    <entity name="WalkList" representedClassName="WalkList" syncable="YES">
+        <relationship name="walks" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Walk" syncable="YES"/>
+    </entity>
+    <entity name="Waypoint" representedClassName="Waypoint" syncable="YES">
+        <attribute name="stop_sequence" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="waypoint_description" attributeType="String" syncable="YES"/>
+        <attribute name="waypoint_id" attributeType="String" syncable="YES"/>
+        <relationship name="location" maxCount="1" deletionRule="Nullify" destinationEntity="Location" syncable="YES"/>
+        <relationship name="media" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Media" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AverageLocation" positionX="-126" positionY="171" width="128" height="75"/>
+        <element name="Location" positionX="-344" positionY="252" width="128" height="150"/>
+        <element name="Media" positionX="61" positionY="312" width="128" height="118"/>
+        <element name="POI" positionX="54" positionY="99" width="128" height="150"/>
+        <element name="Theme" positionX="-155" positionY="6" width="128" height="90"/>
+        <element name="ThemeList" positionX="-135" positionY="162" width="128" height="60"/>
+        <element name="Walk" positionX="-351" positionY="3" width="128" height="240"/>
+        <element name="WalkList" positionX="-117" positionY="180" width="128" height="60"/>
+        <element name="Waypoint" positionX="-182" positionY="288" width="128" height="120"/>
+    </elements>
+</model>

@@ -1,0 +1,26 @@
+//
+//  Coop-PrefixHeader.pch
+//  COOP
+//
+//  Created by ontlener on 20/05/16.
+//  Copyright © 2016 Groep1. All rights reserved.
+//
+
+#ifndef Coop_PrefixHeader_pch
+#define Coop_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <RestKit/CoreData.h>
+#import <RestKit/RestKit.h>
+
+#import "BlockTypes.h"
+#import "Database.h"
+#import "DatabaseManager.h"
+#import "API.h"
+#import "Helper.h"
+#import "Config.h"
+#import "Styles.h"
+
+#endif /* Coop_PrefixHeader_pch */

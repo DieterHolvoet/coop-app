@@ -1,0 +1,1 @@
+../../../WESlider/Source/WESlider.h
